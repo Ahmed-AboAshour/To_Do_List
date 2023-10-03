@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Daily ToDo List</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="todo-container">
+         <form id="add-form">
+            <input type="text" placeholder="New TODO....." id="todo-input">
+            <button type="submit" id="todo-btn">ADD+</button> 
+         </form>
+
+         <div class="boxes-container">
+            <div class="box" id="to-do">
+            <h3 class="heading">TODO</h3>
+            <p class="task" draggable="true"> Learning Math</p>
+            <p class="task" draggable="true"> Learning Business</p>
+            <p class="task" draggable="true"> Learning Stocks</p>
+
+            </div>
+
+            <div class="box" id="doing">
+                <h3 class="heading">DOING</h3>
+                <p class="task" draggable="true"> Learning Car business</p>
+    
+                </div>
+
+                <div class="box" id="done">
+                    <h3 class="heading">DONE</h3>
+                    <p class="task" draggable="true"> Learning Clothes Business</p>        
+                    </div>
+         </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
